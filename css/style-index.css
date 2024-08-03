@@ -26,7 +26,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     
-    z-index: 9999; 	
+    z-index: 10000; 	
     width: 100%;
 }
 .uk-navbar-nav{
@@ -42,6 +42,7 @@ body {
     color: white;
     text-align: center;
     position: relative; /* Обеспечить корректное позиционирование псевдоэлемента */
+   
 }
 
 .uk-button-primary {
@@ -51,8 +52,9 @@ body {
     text-decoration: none; /* Убедитесь, что текст не перекрывается */
     display: inline-block; /* Убедитесь, что кнопка занимает нужное пространство */
     cursor: pointer; /* Курсор при наведении на кнопку */
-    z-index: 9999; /* Поверх остальных элементов */
     position: relative; /* Для корректного отображения z-index */
+    z-index: 9999;
+   
 }
 
 .uk-button-primary:hover {
@@ -117,6 +119,7 @@ body {
 .about-content img {
     max-width: 100%; /* Чтобы изображение не выходило за границы */
     height: auto; /* Сохранение пропорций изображения */
+    
 }
 
 
