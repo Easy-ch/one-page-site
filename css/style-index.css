@@ -227,3 +227,16 @@ body {
 #feedback a:hover {
     color: #0f7ae5; /* Darker color for hover effect */
 }
+.as-social [class*=as-icon-]{color:#fff;background-color:#1e87f0;border-radius:50%;transition-property:border-radius,background-color;}
+.as-icon-facebook:hover{background-color:#3B5999}
+.as-icon-youtube:hover{background-color:#FF0000}
+.as-icon-instagram:hover{background-color:#DB307F}
+.as-icon-twitter:hover{background-color:#3FACE2}
+.as-icon-vk:hover{background-color:#5181B8}
+.as-icon-odnoklassniki:hover{background-color:#F58220}
+.as-icon-whatsapp:hover{background-color:#3EE25B}
+.as-icon-viber:hover{background-color:#7B519D}
+.as-icon-telegram:hover{background-color:#24A1DE}
+.as-icon-telegram:hover{background-color:#0078CA}
+[class*=as-icon-]:hover{color:#fff;border-radius:6px}
+
